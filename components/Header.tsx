@@ -10,8 +10,7 @@ export default function Header() {
   const navItems = [
     { label: "Home", path: "/" },
     { label: "About", path: "/about" },
-    { label: "Products", path: "/Products" },
-    
+    { label: "Products", path: "/products" },
   ];
 
   const handleNavClick = (path: string) => {
