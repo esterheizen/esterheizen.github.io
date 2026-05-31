@@ -38,10 +38,7 @@ export default function AboutPage() {
           <section className="relative overflow-hidden bg-gradient-to-r from-blue-500 from-yellow-500 via-purple-600 to-pink-500 to-red-600 animate-gradient-x text-white min-h-[calc(100vh-5rem)] flex items-center">
             <div className="absolute inset-0 opacity-20 bg-[radial-gradient(circle_at_top_right,_rgba(255,255,255,0.35),_transparent_40%)]" />
             <div className="relative mx-auto max-w-6xl px-6 sm:px-8 py-20">
-              <div className="max-w-3xl">
-                <p className="text-sm uppercase tracking-[0.35em] text-sky-200 mb-4">
-                  About Fast Trim International
-                </p>
+              <div className="max-w-3xl mx-auto text-center">
                 <h1 className="text-5xl sm:text-6xl font-extrabold leading-tight">
                   Precision garment accessories built for global brands.
                 </h1>

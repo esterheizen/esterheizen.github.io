@@ -10,10 +10,10 @@ export default function Footer() {
           <p>
             Email:{" "}
             <a
-              href="mailto:shafiqul@fasttrimbd.com"
+              href="mailto:shafiqul@fasttrim.com.bd"
               className="text-teal-500 hover:underline"
             >
-              shafiqul@fasttrimbd.com
+              shafiqul@fasttrim.com.bd
             </a>
           </p>
           <p>

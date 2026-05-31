@@ -20,7 +20,7 @@ export default function Header() {
   };
 
   return (
-    <header className="sticky top-0 z-50 bg-white/50 backdrop-blur shadow-md">
+    <header className="sticky top-0 z-50 bg-white/50 backdrop-blur">
       <nav className="max-w-5xl mx-auto flex flex-wrap items-center justify-between py-2 px-4 sm:py-4 sm:px-6">
         {/* Logo and Brand */}
         <div className="flex items-center space-x-2 sm:space-x-3">
@@ -29,7 +29,7 @@ export default function Header() {
             alt="Fast Trim Logo"
             width={32}
             height={32}
-            className="rounded-full shadow"
+            className="rounded-full"
           />
           <span className="text-lg sm:text-xl font-bold text-blue-900 tracking-tight">
             Fast Trim International
@@ -66,9 +66,7 @@ export default function Header() {
             text-blue-900 font-medium
             mt-2 sm:mt-0
             w-full sm:w-auto
-            bg-white/10 
             rounded-2xl sm:rounded-none
-            shadow-md sm:shadow-none
             transition-all duration-300 ease-in-out
             ${menuOpen ? "max-h-72 py-4 px-6 overflow-hidden" : "max-h-0 overflow-hidden"}
             sm:max-h-full sm:overflow-visible
