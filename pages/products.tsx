@@ -32,15 +32,16 @@ export default function ProductsPage() {
 
       <div className="min-h-screen flex flex-col bg-white font-sans">
         <main className="flex-1">
-          <section className="bg-gradient-to-r from-blue-500 from-yellow-500 via-purple-600 to-pink-500 to-red-600 animate-gradient-x py-16 px-4 text-white">
-            <div className="max-w-6xl mx-auto space-y-10 text-center">
+          <section className="h-screen bg-gradient-to-r from-blue-500 from-yellow-500 via-purple-600 to-pink-500 to-red-600 animate-gradient-x flex items-center px-4 text-white">
+            <div className="max-w-6xl mx-auto space-y-10 text-center py-16">
               <div className="mx-auto max-w-3xl">
-                <h1 className="text-4xl sm:text-5xl font-bold mb-4">Our Products</h1>
-                <p className="text-lg sm:text-xl leading-9">{aiSummary}</p>
+                <h1 className="text-5xl sm:text-6xl font-extrabold mb-8">Our Products</h1>
+                <p className="text-lg sm:text-xl leading-9">
+                  {aiSummary} Discover premium trims, care labels and woven supplies tailored for modern apparel production. Every item is crafted for durability, precise finish, and reliable export quality, with options that support seasonal collections, retail readiness, and brand-specific customization.
+                </p>
               </div>
 
               <div className="mx-auto max-w-3xl">
-                <label className="block text-sm font-medium text-white mb-2">Search products</label>
                 <input
                   aria-label="Search products"
                   value={query}
