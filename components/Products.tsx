@@ -61,7 +61,7 @@ export const products = [
   },
   {
     name: "Hole Elastic",
-    images: ["/products/elastic.webp"],
+    images: ["/products/hole-elastic.webp"],
     description: "Elastic with eyelets for drawstrings and closures."
   },
   {
