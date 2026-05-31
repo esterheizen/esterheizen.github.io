@@ -75,18 +75,13 @@ export const products = [
     description: "Genuine and faux leather patches for garments."
   },
   {
-    name: "Logo",
-    images: [],
-    description: "Custom logo printing and embroidery services."
-  },
-  {
     name: "Silica Gel",
     images: ["/products/silica-gel.webp"],
     description: "Desiccant packets for product protection."
   },
   {
     name: "Silicone Badge",
-    images: [],
+    images: ["/products/silicone-badge.webp"],
     description: "Flexible silicone badges and tags."
   },
   {
