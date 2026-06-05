@@ -58,8 +58,12 @@ export default function AboutPage() {
                 <div>
                   <h2 className="text-3xl font-semibold text-slate-900 mb-4">What we do</h2>
                   <p className="text-slate-700 leading-8">
-                    We provide end-to-end garment accessories solutions with a focus on accuracy, quality control and timely delivery. Our manufacturing process is engineered for export compliance, and our production teams keep every step aligned with customer expectations.
+                    We provide garment accessories solutions with a focus on accuracy, quality control and timely delivery. Our manufacturing process is engineered for export compliance, and our production teams keep every step aligned with customer expectations.
                   </p>
+                </div>
+
+                <div>
+
                 </div>
 
                 <div className="space-y-6">
